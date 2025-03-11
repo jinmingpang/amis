@@ -28,6 +28,7 @@
     "getChangeLog": "ts-node ./scripts/getChangeLog",
     "stylelint": "npx stylelint 'packages/**/*.scss'",
     "typecheck": "tsc --noEmit",
+    "buildTypes": "tsc -d --declarationDir dist/types --emitDeclarationOnly",
     "publish": "npx publish"
   },
   "husky": {
